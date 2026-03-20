@@ -15,7 +15,7 @@ scp -r <local_filepath> <server_name>:<server_filepath>
 **Example:**
 
 ```bash
-scp -r ~/my-project/ <server_name>:/home/user/my-project/
+scp -r ~/my-project/ my_server:/home/user/my-project/
 ```
 
 ---
@@ -33,7 +33,7 @@ scp -r <server_name>:<server_filepath> <local_filepath>
 **Example:**
 
 ```bash
-scp -r <server_name>:/home/user/results/ ~/results/
+scp -r my_server:/home/user/results/ ~/results/
 ```
 
 ### Using `rsync` (recommended for large transfers)
@@ -47,7 +47,7 @@ rsync -avP <server_name>:<server_filepath> <local_filepath>
 **Example:**
 
 ```bash
-rsync -avP <server_name>:/home/user/results/ ~/results/
+rsync -avP my_server:/home/user/results/ ~/results/
 ```
 
 #### `rsync` flag breakdown
