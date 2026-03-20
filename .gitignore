@@ -1,0 +1,119 @@
+########################################
+# Ignore anything starting with "phi"
+# Case insensitive
+########################################
+
+# Files
+[Pp][Hh][Ii]*
+
+# Directories (any depth)
+**/[Pp][Hh][Ii]*/
+
+########################################
+# OS
+########################################
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+._*
+
+########################################
+# IDE / Editors
+########################################
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+
+########################################
+# Python
+########################################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+########################################
+# Jupyter
+########################################
+.ipynb_checkpoints/
+
+########################################
+# Logs
+########################################
+*.log
+logs/
+nohup.out
+
+########################################
+# ML / Training Artifacts
+########################################
+checkpoints/
+runs/
+wandb/
+tensorboard/
+events.out.tfevents.*
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+########################################
+# Data files (optional — comment out if needed)
+########################################
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.feather
+*.parquet
+
+########################################
+# Coverage / Testing
+########################################
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+########################################
+# Caches
+########################################
+.cache/
+*.cache
+
+########################################
+# Environment variables
+########################################
+.env
+.env.*
+*.env
+
+########################################
+# Docker
+########################################
+docker-compose.override.yml
